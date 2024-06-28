@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    /* background: rgb(166, 216, 236); */
+    margin: 0 10px;
+    background-color:#b9e1dc;
+     
+    
+}
+.Dpage h1{
+      padding: 2px 0;
+        font-size: 40px;
+        text-align: center;
+       color: #130d0d;  
+       letter-spacing: 5px;
+     } 
+     h2{
+        margin-top: 25px;
+        padding: 10px 0;
+     }
+.Dpage{
+    margin: 30px auto;
+    width: 400px;
+    height: 550px;
+    
+    background-image: linear-gradient(rgba(245, 237, 237, 0.7),rgba(0,0,0,0.6)),
+    url("./imgs/30\ NGO\ &\ Charity\ Logos\ That\ Put\ the\ Fun\ Back\ in\ Fundraiser\ _\ VistaPrint\ US.jpeg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    /* padding: 100px 0 ;    */
+}
+
+
+.doneBtn{
+    display: inline;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 13px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    /* bottom: 0%; */
+
+}
+.doneBtn:hover{
+ border: 1px solid #f44336;
+ background: #f44336;
+ transition: 1s;
+}
